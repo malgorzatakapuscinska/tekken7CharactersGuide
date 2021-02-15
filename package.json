@@ -1,0 +1,30 @@
+{
+  "name": "tekken7_front",
+  "version": "1.0.0",
+  "description": "Tekken7CharaktersGuide",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel src/index.html"
+  },
+  "author": "Małgorzata Kapuścińska",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.598",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.598",
+    "@parcel/packager-css": "^2.0.0-nightly.598",
+    "@parcel/packager-html": "^2.0.0-nightly.598",
+    "@parcel/transformer-css": "^2.0.0-nightly.598",
+    "@parcel/transformer-html": "^2.0.0-nightly.598",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.598",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.598",
+    "@parcel/transformer-sass": "^2.0.0-nightly.598",
+    "autoprefixer": "^10.2.4",
+    "parcel": "^2.0.0-nightly.596",
+    "postcss": "^8.2.6",
+    "postcss-custom-properties": "^11.0.0",
+    "postcss-import": "^14.0.0",
+    "postcss-url": "^10.1.1",
+    "posthtml-include": "^1.6.0"
+  }
+}
